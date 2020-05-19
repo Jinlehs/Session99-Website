@@ -1,0 +1,55 @@
+.page{ 
+	font-family: "montserrat-regular", sans-serif;
+	color: white;
+	font-style: normal;
+	text-rendering: optimizeLegibility; 
+	/*webkit transform prop enables web autors to transform an element in 2d 
+	or 3d space: you can rotate, scale, skew and more
+	translatex */
+  	text-align: center;
+  	background-color: lightslategrey;
+   	margin: 0;
+ }
+
+ .navigation-container { 
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 90px;
+	z-index: 2;
+ }
+
+.userbox { 
+  	display: flex;
+  	align-items: start;
+  	justify-content: center;
+
+ }
+ .userbox1 { 
+  	display: flex;
+  	align-items: start;
+  	justify-content: center;
+
+ }
+
+.cal-col { 
+  	text-align: left;
+  	margin: 10px;
+  	padding: 20px;
+ }
+
+.text-col { 
+  	text-align: left;
+  	margin: 10px;
+ 	padding: 20px;
+ }
+
+.jin-img { 
+	border: 5px solid transparent;
+	border-color: white;
+ }
+ .jordy-img { 
+ 	border: 5px solid transparent;
+	border-color: white;
+  }

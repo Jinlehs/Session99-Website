@@ -1,0 +1,36 @@
+.page{ 
+	font-family: "montserrat-regular", sans-serif;
+	color: white;
+	font-style: normal;
+	text-rendering: optimizeLegibility; 
+	/*webkit transform prop enables web autors to transform an element in 2d 
+	or 3d space: you can rotate, scale, skew and more
+	translatex */
+  	text-align: center;
+  	background-color: lightslategrey;
+   	margin: 0;
+ }
+
+ .navigation-container { 
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 90px;
+  z-index: 2;
+  }
+
+input[type=text] { 
+      width: 50%;
+      margin: 8px 0;
+      padding: 12px 20px;
+      box-sizing: border-box;
+}
+textarea {  
+      width: 50%;
+      height: 200px;
+      margin: 8px 0;
+      padding: 12px 20px;
+      box-sizing: border-box;
+
+ }

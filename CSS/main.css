@@ -1,0 +1,127 @@
+/*CSS for main html*/
+
+#title { 
+	font-family: "montserrat-regular", sans-serif;
+	color: white;
+	font-style: normal;
+	text-rendering: optimizeLegibility; 
+	/*webkit transform prop enables web autors to transform an element in 2d 
+	or 3d space: you can rotate, scale, skew and more
+	translatex */
+  text-align: center;
+  background-image: linear-gradient(darkslategray, lightslategrey);
+   margin: 0;
+ }
+
+.navigation-container { 
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 90px;
+  z-index: 2;
+  }
+
+
+.home_container { 
+	position: relative;
+  z-index: -1;
+  margin: 0;
+  padding: 0; 
+  height: 700px;
+
+ }
+
+
+.box { 
+  position: absolute;
+  left:50%;
+  bottom: 15%;
+  z-index: 1;
+  
+  }
+
+.box span { 
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-bottom: 3px solid #fff;
+    border-right: 3px solid #fff;
+    transform: rotate(45deg);
+    margin: -10px;
+    animation: animate 2s infinite;
+  }
+
+.box span:nth-child(2)
+{
+  animation-delay:-0.2s;
+
+}
+.box span:nth-child(3)
+{
+  animation-delay:-0.4s;
+
+}
+
+
+@keyframes animate 
+{
+  0%
+  {
+    opacity:0;
+    transform: rotate(45deg) translate(-20px, -20px);
+  }
+  50%
+  {
+    opacity:1;
+  }
+  100%
+  {
+    opacity:0;
+    transform: rotate(45deg) translate(20px, 20px);
+  }
+}
+
+
+.calbox { 
+  display: flex;
+  align-items: start;
+  justify-content: space-evenly;
+
+ }
+
+.cal-col { 
+  text-align: left;
+ }
+.cal-col h1 { 
+  text-decoration: underline;
+ }
+
+
+.text-col { 
+  text-align: left;
+ }
+
+.text-col h1 { 
+  text-decoration: underline;
+ }
+
+ .subscribe { 
+  background-color: darkslategray;
+  }
+
+
+input[type=text] { 
+      width: 50%;
+      margin: 8px 0;
+      padding: 12px 20px;
+      box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
